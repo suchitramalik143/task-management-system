@@ -1,0 +1,10 @@
+:root {
+    --tblr-primary: #1273eb;
+    --tblr-btn-hover-bg: #1068d4;
+}
+
+[data-bs-theme=light] {
+    --tblr-nav-active-bg: var(--tblr-primary-lt);
+    --tblr-border-color:#ededed;
+    --tblr-body-color: #09111b;
+}

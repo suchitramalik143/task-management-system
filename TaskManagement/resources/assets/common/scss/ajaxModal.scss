@@ -1,0 +1,99 @@
+/** Ajax Model CSS **/
+.ajax-model-wrapper {
+    //  margin-top: 10%;
+    margin-top: 3%;
+
+    #ajaxModalTitle {
+        color: #000;
+    }
+
+    .modal-dialog {
+        transition: width 500ms ease;
+    }
+
+    .mini-modal {
+        width: 300px !important;
+    }
+
+    .modal-content {
+        box-shadow: none;
+        border: 0px;
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #f6f8f9;
+        padding: 16px 16px;
+        // border: 0px;
+        i {
+            color: #656567;
+        }
+    }
+
+    .modal-title {
+        font-size: 18px;
+        margin: 0;
+        line-height: 1.42857143;
+        color: #364754;
+        font-weight: 600;
+    }
+}
+
+.circle-loader {
+    margin: 30px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    border: solid 2px rgba(220, 230, 235, 0.5);
+    border-top-color: #007bff;
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin 1s infinite linear;
+}
+
+.modal-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.circle-done {
+    margin: 10px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid 5px rgba(220, 230, 235, 0.5);
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    color: #25ccce;
+}
+
+.circle-done i {
+    display: inline-block;
+    max-width: 0%;
+    overflow: hidden;
+
+}
+
+.circle-done.ok i {
+    max-width: 80%;
+    -webkit-transition: max-width 1000ms ease;
+    -moz-transition: max-width 1000ms ease;
+    -o-transition: max-width 1000ms ease;
+    transition: max-width 1000ms ease;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

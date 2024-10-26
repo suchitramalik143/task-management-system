@@ -1,0 +1,43 @@
+:root {
+    --gray-10: #F7F8F8;
+    --gray-50: #E8E8E8;
+    --gray-100: #D9DADA;
+    --gray-200: #B8B8B8;
+    --gray-hard: #909090;
+    --red-bg: #FEF8F8;
+    --red-50: #fceae9;
+    --red-100: #f5bcba;
+    --red-200: #f09c99;
+    --red-300: #e96f6b;
+    --red-400: #e5534e;
+    --red-500: #de2822;
+    --red-600: #ca241f;
+    --red-700: #9e1c18;
+    --red-800: #7a1613;
+    --red-900: #5d110e;
+
+    --violet-nude: #e0dbe5;
+    --violet-light: #9079A3;
+    --violet-medium: #6A5573;
+    --violet-hard: #482E5B;
+    --gold: #D7B56C;
+    --danger: #AB2827;
+
+    --tblr-primary: var(--violet-light);
+    --tblr-primary-rgb: 144, 121, 163;
+    --tblr-primary-hover: var(--violet-hard);
+    --tblr-body-color: #666666;
+
+    --text-black: #1A1A1A;
+    --body-text-primary: var(--violet-light);
+    --body-text-secondary: #A6A6A6;
+
+
+    --tblr-breadcrumb-item-active-color: var(--tblr-primary);
+    --tblr-body-line-height: 22px;
+    --tblr-page-padding-y: var(--tblr-spacer-3);
+    --star-color: #FFAD33;
+
+    --tblr-font-sans-serif: 'Nunito Sans', sans-serif;
+    --tblr-btn-font-weight: 400
+}

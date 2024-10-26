@@ -1,0 +1,134 @@
+/**
+Side bar style
+**/
+
+#collapse-sidebar-btn {
+    position: absolute;
+    right: -10px;
+    top: 23px;
+    width: 24px;
+    text-align: center;
+    line-height: 19px;
+    height: 24px;
+    border-radius: 25px;
+    z-index: 5;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+#collapse-sidebar-btn i {
+    color: #CCCCCC;
+    font-size: 15px;
+}
+
+.navbar-vertical {
+    transition: width 0.2s ease;
+    padding: 0 10px !important;
+
+
+    .nav-item {
+        .nav-link {
+            padding: 10px calc(calc(var(--tblr-page-padding) * 2) / 2) !important;
+        }
+
+        .ti {
+            font-size: 22px
+        }
+
+        &.active {
+            //background-color: var(--tblr-nav-active-bg);
+            background-color: #1273eb;
+            border-radius: 4px;
+            color: white;
+
+            .dropdown-toggle:after {
+                color: white;
+            }
+
+            &:after {
+                content: none;
+            }
+
+            .nav-link-title, .ti {
+                color: white;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 798px) {
+    .table-responsive {
+        overflow-x: visible;
+    }
+}
+
+// customize for mini side bar
+//.mini-sidebar {
+//    .navbar-vertical.navbar-expand-lg {
+//        width: 4rem;
+//        padding: 0px !important;
+//        overflow-y: initial;
+//
+//        ~ .navbar, ~ .page-wrapper {
+//            margin-left: 4rem;
+//        }
+//
+//        .nav-link-title {
+//            display: none;
+//        }
+//
+//        .nav-link.dropdown-toggle {
+//            &:after {
+//                display: none;
+//            }
+//
+//            &.show {
+//                border-radius: 0px;
+//            }
+//        }
+//
+//        .nav-item.dropdown {
+//            position: relative;
+//            border-radius: 0px;
+//
+//            .dropdown-menu.show {
+//                position: absolute;
+//                background: #1273eb;
+//                left: 4rem;
+//                top: 0px;
+//                border-radius: 0px;
+//            }
+//        }
+//    }
+//}
+
+
+.action-dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.action-dropdown {
+    .dropdown-toggle {
+        padding: 5px 6px;
+        border-radius: 4px;
+        font-size: 20px;
+        line-height: 20px;
+        --tblr-btn-hover-border-color: #d2d2d2;
+
+        &:after {
+            display: none;
+        }
+    }
+
+    .dropdown-menu {
+        padding: 5px;
+    }
+
+    .dropdown-menu, .dropdown-item {
+        min-width: 8.5rem;
+    }
+}
+

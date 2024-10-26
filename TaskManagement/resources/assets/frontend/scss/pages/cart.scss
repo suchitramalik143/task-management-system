@@ -1,0 +1,15 @@
+.cart-overview-prd{
+    .product-list-card:not(:last-child){
+        margin-bottom: 6px;
+    }
+}
+
+
+//Checkout page
+
+
+
+.order-summary-card{
+    padding:20px;
+    background:var(--gray-10);
+}

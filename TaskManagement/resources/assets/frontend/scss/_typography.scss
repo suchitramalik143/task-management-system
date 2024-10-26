@@ -1,0 +1,86 @@
+
+//@import url('https://fonts.cdnfonts.com/css/romelio-sans');
+@font-face {
+    font-family: 'Romelio Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Romelio.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/NunitoSans.ttf') format('ttf');
+    font-weight: 300 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../iconmoon/icomoon.eot?mqiidf');
+    src:  url('../iconmoon/icomoon.eot?mqiidf#iefix') format('embedded-opentype'),
+    url('../iconmoon/icomoon.ttf?mqiidf') format('truetype'),
+    url('../iconmoon/icomoon.woff?mqiidf') format('woff'),
+    url('../iconmoon/icomoon.svg?mqiidf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+.ffr{
+    font-family: 'Romelio Sans', sans-serif;
+}
+.heading1 {
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0px;
+    font-family: 'Romelio Sans', sans-serif;
+}
+
+.heading2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Romelio Sans', sans-serif;
+}
+
+
+.heading3, .text-3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: 'Romelio Sans', sans-serif;
+}
+
+.heading4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Romelio Sans', sans-serif;
+}
+.paragraph{
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+}
+.text-primary-hard{
+    color:var(--violet-hard)
+}
+@media (max-width: 768px) {
+    .heading1 {
+
+    }
+    .heading2 {
+
+    }
+
+    .heading3, .text-3 {
+
+    }
+
+    .heading4 {
+
+    }
+
+}

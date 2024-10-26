@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+// Bootstrap
+//@import "~bootstrap/scss/bootstrap";
+@import "~@tabler/core/src/scss/tabler";
+@import "../plugins/tabler-icons/tabler-icons";
+@import "~litepicker/dist/css/litepicker.css";
+
+// Add Custom CSS
+@import "~select2/dist/css/select2.min.css";
+@import "~select2-bootstrap-5-theme/dist/select2-bootstrap-5-theme.min.css";
+@import "~toastr/build/toastr.min.css";
+@import "scss/navbar";
+@import "scss/main";
+@import "scss/ajaxModal";
